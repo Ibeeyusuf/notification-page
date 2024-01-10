@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: grid;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(210, 60%, 98%);
+}
+.container{
+    max-width: 500px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 15px;
+    box-shadow: 4px 4px 5px rgb(201, 201, 201);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    background-color: hsl(219, 97%, 31%);
+    padding: 1px 6px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 4px;
+}
+.flex{
+    display: flex;
+}
+.name{
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.chess{
+    color: hsl(0, 6%, 7%);
+    cursor: pointer;
+}
+.chess:hover{
+    color: hsl(219, 85%, 26%);
+}
+.name:hover{
+    color: hsl(219, 85%, 26%);
+}
+.day{
+    color: hsla(217, 16%, 78%, 0.774);
+
+}
+.all{
+    color: hsl(219, 12%, 42%);
+}
+.read{
+    color: hsl(219, 12%, 42%);
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.read:hover{
+    color: hsl(219, 85%, 26%);
+}
+.dot{
+    display: inline-block;
+    margin-left: 5px;
+    background-color: red;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+.cards{
+    display: flex;
+    align-items: center;
+   
+    margin: 5px 0px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.cards.bg{
+     background-color: hsla(195, 31%, 95%, 0.781);
+}
+img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.rizky{
+    display: grid;
+    padding: 10px;
+}
+.rrr{
+    display: flex;
+}
+.hello{
+    cursor: pointer;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid hsl(200, 30%, 95%);
+    transition: background 0.7s;
+}
+.hello:hover{
+    background: hsla(195, 43%, 95%, 0.856);
+}
+.hey{
+    padding: 10px;
+    display: flex;
+}
+.hey3{
+    display: flex;
+    align-items: center;
+}
+.hey2{
+    justify-content: space-between;
+}
